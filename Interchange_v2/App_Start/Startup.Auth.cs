@@ -55,14 +55,14 @@ namespace Interchange_v2
             //   consumerSecret: "");
 
             //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            //   appId: """",
+              //appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "595426179664-dgeb9vo7lk6jaa1no1kgdig3bgsvsclo.apps.googleusercontent.com",
+                ClientSecret = "JeSoMzdmFFcXawwDMbLhUcsN"
+            });
         }
     }
 }
