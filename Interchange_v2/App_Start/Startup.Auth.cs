@@ -54,9 +54,10 @@ namespace Interchange_v2
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: """",
-              //appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1509620735720695",
+               appSecret: "9ee3ebe31beca1d3996ea5f39f48c729");
+
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
