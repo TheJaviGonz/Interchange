@@ -25,6 +25,7 @@ namespace Interchange_v2
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/new-age.css",
                       "~/Content/site.css"));
         }
     }
